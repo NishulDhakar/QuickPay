@@ -41,7 +41,7 @@ Quick. Easy. Reliable.
 
 ## Live Demo
 
-**Try it out:** [https://quick-pay-z6ay.vercel.app/](https://quickpay.nishul.dev)  
+**Try it out:** [quickpay.com](https://quickpay.nishul.dev)  
 Test account credentials available — or create your own!
 
 ---
