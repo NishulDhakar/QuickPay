@@ -1,66 +1,90 @@
-# ⚡ QuickPay — Full-Stack Web App
-A minimal full-stack starter to help you jump-start your next project.  
-Built with a responsive frontend, secure backend, MongoDB integration, and auth features.
+# QuickPay
 
-🛠️ Tech Stack
-🎨 Frontend
+**QuickPay** is a full-stack money transfer web app that lets you send money to other users, view transactions, and manage account balances — all with secure authentication.
+
+Quick. Easy. Reliable.
+
+---
+
+<!-- ## Features
+
+- 🔐 **User authentication** (Signup & Signin with JWT)  
+- 🔑 Passwords securely hashed using **bcrypt**  
+- 📧 OTP emails powered by **SendGrid API**  
+- 🧑‍🤝‍🧑 Searchable user list for money transfers (`/bulk` endpoint)  
+- 💸 Real-time money transfers between accounts  
+- 💰 View your account balance (`/balance` endpoint)  
+- 📊 MongoDB-backed transaction history  
+- 🧪 Input validation & robust error handling  
+- 📱 Fully responsive UI with **React + Tailwind CSS**  
+- 🛡️ Middleware-protected routes on the backend  
+- ✅ Deployable to Vercel (frontend) & Render (backend)
+
+--- -->
+
+## Tech Stack
+
+**Frontend**  
 - React  
-- Tailwind CSS 
-🧠 Backend
-- Express 
-- MongoDB 
-📝 Language
-- TypeScript 
+- Tailwind CSS  
+- Axios  
+- React Router  
 
-🚀 Getting Started
-1️⃣ Clone the repo
-git clone https://github.com/NishulDhakar/QuickPay.git
-cd QuickPay
+**Backend**  
+- Node.js (Express.js)  
+- MongoDB  
+- JWT Authentication  
+- Bcrypt (password hashing)  
+<!-- - SendGrid (OTP emails) -->
 
-2️⃣ Install dependencies
-Backend:
-cd backend
-npm install
+---
 
-Frontend:
-cd frontend
-npm install
+## Live Demo
 
-3️⃣ Configure environment variables
-Create a .env file in your backend directory:
-MONGO_URL=your_mongodb_connection_string
-PORT=3001
-JWT_SECRET=your_secret_key
-SENDGRID_API_KEY=your_sendgrid_key
+**Try it out:** [https://quick-pay-z6ay.vercel.app/](https://quickpay.nishul.dev)  
+Test account credentials available — or create your own!
 
-4️⃣ Run the app
-Backend:
-cd backend
-npm run dev
+---
 
-Frontend:
-cd frontend
-npm start
+<!-- ## Why QuickPay?
 
-✨ Backend Features
-- User auth (signup, signin) with hashed passwords
-- OTP using SendGrid
-- Middleware for protected routes
-- User profile updates & search (/bulk)
-- Account routes (/balance, /transfer)
-- Mongo schema for accounts & transactions
+**QuickPay** simplifies money transfers and account management in one place. Whether you need to send money to a friend or check your balance — it’s quick, secure, and built for scale.
 
-🎨 Frontend Features
-- React Router for /signin, /signup, /dashboard
-- Axios for API calls
-- Reusable Input & Button components
-- Display user list, send money
-- Responsive dashboard with Tailwind CSS
+**Core values**:
+- Ease of use  
+- Data privacy & security  
+- Scalable and maintainable architecture  
 
-🚀 Deploy
-Vercel — for frontend (npm run build)
-Render — for backend (npm install && npm run build && npm start)
+--- -->
 
-🤝 Contributing
-Issues, pull requests & feature ideas are welcome!
+## What I Learned
+
+Building this project gave me hands-on experience with:
+
+- 🧠 Structuring a full-stack app with a **RESTful API**  
+- 🔐 Implementing secure authentication with **JWT & Bcrypt**  
+- 📊 Efficient MongoDB schema design for accounts & transactions  
+- 🎨 Crafting a responsive frontend with **React & Tailwind CSS**  
+<!-- - 📧 Integrating **SendGrid API** for OTP emails   -->
+- 🧪 Writing scalable, modular Express routes and middlewares  
+
+---
+
+## Contributing
+
+Contributions are welcome. You can:
+- 🍴 Fork the repository  
+- 🐛 Report bugs or request features via Issues  
+- 🔀 Submit a pull request with improvements  
+
+---
+
+## 🤝 Connect with Me
+
+[![🌐 Portfolio](https://img.shields.io/badge/🌐_Portfolio-36BCF7?style=for-the-badge&logoColor=white&labelColor=1F222E)](https://nishul.dev)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1F222E)](https://www.linkedin.com/in/nishuldhakar)  
+[![Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1F222E)](https://x.com/nishuldhakar)  
+[![Telegram](https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1F222E)](https://t.me/nishuldhakar)  
+
+---
 
